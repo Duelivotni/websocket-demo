@@ -1,9 +1,11 @@
 package com.example.websocket;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class HelloMessage {
 
-    private final String name;
+    private String name;
 }
